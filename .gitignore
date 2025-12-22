@@ -1,0 +1,88 @@
+############################
+# Maven
+############################
+target/
+!.mvn/wrapper/maven-wrapper.jar
+
+############################
+# Gradle (if ever used)
+############################
+.gradle/
+
+############################
+# Logs
+############################
+*.log
+logs/
+
+############################
+# OS files
+############################
+.DS_Store
+Thumbs.db
+
+############################
+# IDEs
+############################
+
+# IntelliJ IDEA
+.idea/
+*.iml
+*.iws
+*.ipr
+out/
+
+# VS Code
+.vscode/
+
+# Eclipse
+.project
+.classpath
+.settings/
+
+############################
+# Java
+############################
+*.class
+hs_err_pid*
+
+############################
+# Spring Boot
+############################
+*.jar
+*.war
+*.ear
+application-*.yml
+application-*.properties
+
+############################
+# Testcontainers
+############################
+testcontainers.properties
+
+############################
+# Docker
+############################
+.env
+docker-compose.override.yml
+
+############################
+# Node / Frontend (if added later)
+############################
+node_modules/
+dist/
+build/
+
+############################
+# Security
+############################
+*.key
+*.pem
+*.crt
+*.jks
+
+############################
+# Misc
+############################
+*.swp
+*.tmp
